@@ -1,0 +1,9 @@
+/* The only reset you’ll ever need */
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
