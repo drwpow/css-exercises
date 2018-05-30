@@ -1,4 +1,4 @@
-# Exercise 2
+# Exercise 2: Fluidity
 
 ## Objective
 
@@ -29,7 +29,7 @@ Neat! A line break!
 ## Rules
 
 1.  The **rows** (not cards) should be equal height.
-2.  There should never be extra space between the bottom line of text and the buttons
+2.  In any given row, there shouldn’t be extra space between the tallest body text and the buttons below.
 3.  The cards should stack vertically (1-up or 2-up) at reasonable sizes
 4.  Buttons should always be at bottom, aligned right
 5.  The minimum spacing between items should be consistent units
