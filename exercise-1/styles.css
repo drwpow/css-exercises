@@ -63,3 +63,26 @@ body {
   margin-right: auto;
   max-width: 56em;
 }
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns:calc(4 * var(--grid)) auto;
+    grid-column-gap: var(--grid);
+    grid-row-gap: var(--grid);
+    grid-template-areas:
+      "red text"
+      "black text";
+  }
+
+  .text p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid{
+    grid-template-columns:calc(4 * var(--grid)) auto calc(4 * var(--grid));
+    grid-template-areas:
+      "red text black";
+  }
+}
