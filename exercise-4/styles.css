@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Domaine Display";
+  font-weight: 700;
+  font-style: italic;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineDisplayTest-ExtraboldItalic.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 300;
+  font-style: normal;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Light.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 300;
+  font-style: italic;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-LightItalic.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 500;
+  font-style: normal;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Medium.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 500;
+  font-style: italic;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-MediumItalic.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 700;
+  font-style: normal;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Bold.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 700;
+  font-style: italic;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-BoldItalic.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 800;
+  font-style: normal;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Black.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 800;
+  font-style: italic;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-BlackItalic.woff)
+    format("woff");
+}
+
+/* Load body last 😈 */
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Regular.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "Domaine Text";
+  font-weight: 400;
+  font-style: italic;
+  src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-RegularItalic.woff)
+    format("woff");
+}
+
+body {
+  font-family: "Domaine Text", Georgia, serif;
+  margin: 0;
+}
+
+figure {
+  max-height: 28em;
+  margin-bottom: 0;
+  margin-left: -10em;
+  margin-right: -10em;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+figure img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+article {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+article h1 {
+  background-color: white;
+  font-family: "Domaine Display";
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 1em;
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-top: -3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  position: relative;
+}
+
+article h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 2;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+article p {
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+article blockquote {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 2.5;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
