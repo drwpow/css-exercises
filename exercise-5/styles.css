@@ -1,0 +1,28 @@
+body {
+  background: #eee;
+  margin: 0;
+}
+
+.card {
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px #ccc, 0 0 64px 32px rgba(0, 0, 255, 0);
+  display: flex;
+  justify-content: center;
+  min-height: 200px;
+  padding: 12px;
+  transition: box-shadow 200ms linear;
+}
+
+.card:hover {
+  box-shadow: 0 0 0 1px #ccc, 0 0 64px 32px rgba(0, 0, 255, 0.2);
+}
+
+.grid {
+  display: grid;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 24px;
+}
