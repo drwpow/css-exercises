@@ -1,0 +1,55 @@
+body {
+  background: #333;
+  margin: 0;
+}
+
+.marquee {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  padding-top: 64px;
+  position: relative;
+  width: 280px;
+}
+
+.bulb {
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px white;
+  height: 32px;
+  transition: background-color 100ms linear;
+  width: 32px;
+}
+
+.menu {
+  margin-bottom: 64px;
+  margin-left: 0;
+  margin-top: 64px;
+  padding: 0;
+  text-align: center;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 1em;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 32px;
+}
+
+.button__two {
+  left: 48px;
+}
+
+.button__three {
+  left: 96px;
+}
