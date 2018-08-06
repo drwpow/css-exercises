@@ -1,0 +1,31 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+}
+
+.flip {
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12.5vw;
+  max-width: 400px;
+  width: 50vw;
+}
+
+.flip-card {
+  background-color: #5ec1c1;
+  color: white;
+  height: 0;
+  padding-top: 100%;
+  position: relative;
+}
+
+.flip-card span {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
