@@ -63,3 +63,49 @@ body {
   margin-right: auto;
   max-width: 56em;
 }
+
+
+
+@media screen and (min-width: 600px){
+  
+
+  .grid__text {
+    grid-area: text;
+    padding-left: 150px;
+
+  }
+  .wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.box {
+  margin: var(--grid);
+  min-height: calc(4 * var(--grid));
+  padding: var(--grid);
+  width: 80%;
+}
+
+
+.grid {
+  grid-template-areas:
+    "red text"
+    "black text";
+}
+
+}
+
+@media screen and (min-width: 900px){
+   
+    .grid {
+      display: grid;
+      grid-template-areas:
+        "black text red";
+    
+    }
+    .box {
+      margin-top: var(--grid);
+      min-height: calc(4 * var(--grid));
+    }
+
+    }
