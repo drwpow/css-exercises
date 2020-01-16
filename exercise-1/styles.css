@@ -63,3 +63,47 @@ body {
   margin-right: auto;
   max-width: 56em;
 }
+
+
+@media screen and (min-width: 600px) { 
+  
+   
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "black text"
+      "red text";
+  
+  }
+  .box {
+    margin: var(--grid);
+    min-height: calc(4 * var(--grid));
+    padding: var(--grid);
+  }
+  
+  
+}
+
+@media screen and (min-width: 768px) {
+  /* Box */
+
+.box {
+  margin: var(--grid);
+  min-height: calc(4 * var(--grid));
+  padding: var(--grid);
+}
+
+
+
+ /* Grid */
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "black text red";
+  padding-left: 0em;
+
+}
+
+
+}
