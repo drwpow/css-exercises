@@ -21,6 +21,7 @@ body {
   padding: 15px 0px 5px 15px;
   border-radius: 16px;
   
+  
 }
  
 .grid {
@@ -38,6 +39,7 @@ body {
   ;
 }
 
+
 h4{
   opacity: 0.3;
 }
@@ -49,29 +51,79 @@ h3{
 
 p {
   display:grid;
-  grid-template-columns: 1fr 1fr;
-  width: 70%;
+  grid-template-columns: 2fr 1fr;
+  width: 80%;
   float: right;
-
-}
-.button{
-  border-radius: 36px;
-  font-size: 24px;
-  width: 15%;
 
 }
 
 
 
 .button-1 {
+  border-radius: 36px;
+  font-size: 18px;
+  width: 20%;
   background-color:#eee;
   color: gray;
+  display: inline;
+  position: relative;
+  top:100px;
+  left:190px;
+  
 }
 
 .button-2 {
-  background-color: purple;
+  border-radius: 36px;
+  font-size: 18px;
+  width: 20%;
+  background-color: #4f50ff;;
   color: white;
+  position: relative;
+  top:73px;
+  left:330px;
 }
+
+
+
+#star{
+  width: 12%;
+}
+
+h6{
+  color: rgb(235, 235, 62);
+}
+
+.picture_2 {
+  display:grid;
+  grid-template-columns: 1fr 3fr 2fr; 
+
+}
+
+.button-5 {
+  border-radius: 36px;
+  font-size: 18px;
+  width: 20%;
+  background-color:#eee;
+  color: gray;
+  display: inline;
+  position: relative;
+  top:170px;
+  left:230px;
+  
+}
+
+
+.button-6 {
+  border-radius: 36px;
+  font-size: 18px;
+  width: 20%;
+  background-color: #4f50ff;
+  color: white;
+  position: relative;
+  top:140px;
+  left:350px;
+}
+
 
 
 
