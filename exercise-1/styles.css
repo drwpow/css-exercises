@@ -69,9 +69,7 @@ body {
 /* i will add media queries only below for the devices with differnt screen
  600px, and 900px */
 
-
-
-@media screen and (min-width: 600px){
+@media all and (max-width: 600px) and (min-width: 100px){
   
   .grid__text {
     grid-area: text;
@@ -116,3 +114,4 @@ body {
   }
 
     }
+      
