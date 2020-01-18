@@ -1,9 +1,46 @@
 /* The only reset you’ll ever need */
 
-body {
-  margin: 0;
-}
 
-* {
-  box-sizing: border-box;
-}
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+         text-align: center;
+          }
+      .card {
+        box-shadow: 0 8px 8px 10px rgba(87, 84, 84, 0.4);
+        max-width: 250px;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        box-sizing: border-box;
+      }
+ 
+      img {
+        width: 70%;
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+ 
+      .designation {
+        font-size: 18px;
+      }
+ 
+      .social {
+        margin: 20px 0;
+      }
+ 
+      a {
+        font-size: 26px;
+        padding: 7px 12px;
+        text-decoration: none;
+        background-color: #04456f;
+        color: white;
+        border-radius: 10px;
+      }
+ 
+      a:hover {
+        background-color: #00c8ff;
+      }
