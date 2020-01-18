@@ -108,11 +108,11 @@ body {
       margin: var(--grid);
       min-height: calc(4 * var(--grid));
       padding: var(--grid);
-      width: 80%; 
+      width: auto; 
     }
     .grid__text {
     grid-area: text;
-    padding-left: 25px;
+    padding-left: 30px;
   }
 
     }
