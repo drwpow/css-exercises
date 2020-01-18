@@ -32,15 +32,26 @@
         margin: 20px 0;
       }
  
-      a {
-        font-size: 26px;
-        padding: 7px 12px;
-        text-decoration: none;
-        background-color: #04456f;
-        color: white;
-        border-radius: 10px;
-      }
- 
-      a:hover {
-        background-color: #00c8ff;
-      }
+.nope {
+  border-radius: 36px;
+  font-size: 18px;
+  width: 20%;
+  background-color:#eee;
+  color: gray;
+  display: inline;
+  position: relative;
+  top:100px;
+  left:190px;
+  
+}
+
+.ok {
+  border-radius: 36px;
+  font-size: 18px;
+  width: 20%;
+  background-color: #4f50ff;;
+  color: white;
+  position: relative;
+  top:73px;
+  left:330px;
+}
