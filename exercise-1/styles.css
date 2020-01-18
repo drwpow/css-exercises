@@ -63,3 +63,56 @@ body {
   margin-right: auto;
   max-width: 56em;
 }
+
+
+
+/* i will add media queries only below for the devices with differnt screen
+ 600px, and 900px */
+
+
+
+@media screen and (min-width: 600px){
+  
+  .grid__text {
+    grid-area: text;
+    padding-left: 150px;
+  }
+  
+  .wrapper {
+    margin: 10px;
+  }
+
+.box {
+  margin: var(--grid);
+  min-height: calc(4 * var(--grid));
+  padding: var(--grid);
+  width: 80%;
+}
+
+
+.grid {
+  grid-template-areas:
+    "red text"
+    "black text"; /* for the column arrengments */
+}
+
+}
+
+@media screen and (min-width: 900px){
+   
+    .grid {
+      display: grid;
+      grid-template-areas:
+        "black text red";
+    
+    }
+    .box {
+      margin-top: var(--grid);
+      min-height: calc(4 * var(--grid));
+    }
+    .grid__text {
+    grid-area: text;
+    padding-left: 10px;
+  }
+
+    }
