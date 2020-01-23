@@ -8,35 +8,41 @@
 </head>
 <body>
 <header class="header">
-  <h1>
-    This is how to create slide-show
-  </h1>
+  <h1>Exercise 3: Interactivity</h1>
+  <h2>Objective</h2>
+  <p>Build a carousel using only HTML and CSS that looks somewhat like the
+      following:</p>
 </header>
 
 <!-- the whole slide shows container  -->
-<section class="slide-show-container">
-  <div class="slides">
-    <li><img src="images/placeimg_1.jpg" alt=""></li>
-    <li><img src="images/placeimg_2.jpg" alt=""></li>
-    <li><img src="images/placeimg_3.jpg" alt=""></li>
-    <li><img src="images/placeimg_4.jpg" alt=""></li>
-    <li><img src="images/placeimg_5.jpg" alt=""></li>
-  </div>
-  <div class="slide-radios">
-    <input type="radio" id="radio-1" name="slide-bar" class="slide-bar" checked/>
-    <input type="radio" id="radio-2" name="slide-bar" class="slide-bar" />
-    <input type="radio" id="radio-3" name="slide-bar" class="slide-bar" />
-    <input type="radio" id="radio-4" name="slide-bar" class="slide-bar" />
-    <input type="radio" id="radio-5" name="slide-bar" class="slide-bar" />
-    <label for="radio-1"></label>
-    <label for="radio-2"></label>
-    <label for="radio-3"></label>
-    <label for="radio-4"></label>
-    <label for="radio-5"></label>
-  </div>
-</section>
+
+    <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="images/1.png" class="slider-image" />
+            <img src="images/2.png" class="slider-image" />
+            <img src="images/3.png" class="slider-image" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+    </div>
 </body>
 </html>
+<article>
+  <h2>Rules</h2>
+  <ol class="assignments-rules">
+    <li>Only HTML and CSS. No Javascript is allowed.</li>
+    <li>Carousel must be operable using the navigation.</li>
+    <li>Left, right buttons are not necessary.</li>
+    <li>Touch swipe isn't necessary.</li>
+    <li>Supporting flexible slides / image sizes isn't necessary.</li>
+  </ol>
+</article>
 
-
- 
+</body>
+</html>
